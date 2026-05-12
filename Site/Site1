@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <div id="cabecalho">
+        <h1>Cabeçalho da Página</h1>
+    </div>
+
+    <!-- Navegação - Menu -->
+    <a href="#">Página1</a>
+    <a href="#">Página2</a>
+
+    <!-- Conteúdo -->
+    <div id="conteudo">
+        <h1>Nome dos Desenvolvedores</h1>
+        <p>Lorenzo Raveli e Samuel Kimura</p>
+
+        <table id="dinheiro">
+
+            <!-- Título da tabela -->
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Dinheiro</th>
+                    <th>Idade</th>
+                    <th>Área profissional</th>
+                    <th>Carga horária</th>
+                </tr>
+            </thead>
+
+            <!-- Conteúdo da tabela -->
+            <tbody>
+                <tr>
+                    <td>Lorenzo</td>
+                    <td>1503</td>
+                    <td>15</td>
+                    <td>Lixeiro</td>
+                    <td>60hr</td>
+                </tr>
+                <tr>
+                    <td>Samuel</td>
+                    <td>1634</td>
+                    <td>15</td>
+                    <td>Investidor</td>
+                    <td>80hr</td>
+                </tr>
+                <tr>
+                    <td>Felipe</td>
+                    <td>400</td>
+                    <td>16</td>
+                    <td>Desenvolvedor</td>
+                    <td>110hr</td>
+                </tr>
+                <tr>
+                    <td>Eduardo</td>
+                    <td>900</td>
+                    <td>14</td>
+                    <td>Jovem aprendiz</td>
+                    <td>30hr</td>
+                </tr>
+                <tr>
+                    <td>Richard</td>
+                    <td>2050</td>
+                    <td>17</td>
+                    <td>Jovem aprendiz</td>
+                    <td>50hr</td>
+                </tr>
+            </tbody>
+
+            <!-- Rodapé da tabela -->
+            <tfoot>
+                <tr>
+                    <td colspan="5">Tabela de exemplo</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </div>
+
+    <!-- Seção com formulário -->
+
+
+
+    <form id="frmCadastro" action="#" method="post">
+            <fieldset>
+                <legend>Cadasto de Notas</legend>
+                <!--Conteudo Formulario-->
+                <div>
+                    <label for="txtNome">Nome:</label>
+                    <input id="txtNome" name="txtNome" type="text" value="" required/>
+                </div>
+                   <div>
+                    <label for="txtNota">Dinheiro:</label>
+                    <input id="txtNota" name="txtNota" type="text" value="" required/>
+                </div>
+                    <div>
+                     <label for="txtNome">Idade:</label>
+                     <input id="txtNome" name="txtNome" type="text" value="" required/>
+                </div>
+                <div>
+                    <input type="submit" value="Cadastrar"/>
+                    <input type="reset" value="Limpar"/>
+                </div>
+            </fieldset>
+        </form>
+
+</body>
+</html>
